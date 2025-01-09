@@ -61,8 +61,7 @@ const Products = () => {
             Products
           </h1>
           <p data-aos="fade-up" className="text-xs text-gray-400">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-            asperiores modi Sit asperiores modi
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad est illum, nisi et atque laudantium, aliquid amet architecto nam ex inventore dolore nobis quod repellat officiis quasi deleniti quas cumque!
           </p>
         </div>
         {/* Body section */}
