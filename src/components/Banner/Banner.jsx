@@ -21,13 +21,16 @@ const Banner = () => {
           {/* text details section */}
           <div className="flex flex-col justify-center gap-6 sm:pt-0">
             <h1 data-aos="fade-up" className="text-3xl sm:text-4xl font-bold">
-              Winter Sale upto 10% Off
+              Winter 
             </h1>
             <p
               data-aos="fade-up"
               className="text-sm text-gray-500 tracking-wide leading-5"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quae dolor recusandae hic excepturi obcaecati nisi nostrum. Voluptatibus doloribus, suscipit vero, iste tempore voluptate pariatur sunt alias, quod reiciendis necessitatibus.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+              quae dolor recusandae hic excepturi obcaecati nisi nostrum.
+              Voluptatibus doloribus, suscipit vero, iste tempore voluptate
+              pariatur sunt alias, quod reiciendis necessitatibus.
             </p>
             <div className="flex flex-col gap-4">
               <div data-aos="fade-up" className="flex items-center gap-4">

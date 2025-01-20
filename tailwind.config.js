@@ -6,7 +6,7 @@ export default {
     extend: {
       colors: {
         primary: "#fea928",
-        secondary: "#ed8900",
+        secondary: "",
       },
       container: {
         center: true,

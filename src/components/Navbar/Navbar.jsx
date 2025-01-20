@@ -60,7 +60,6 @@ const Navbar = ({ handleOrderPopup }) => {
           <div>
             <a href="#" className="font-bold text-2xl sm:text-3xl flex gap-2">
               <img src={Logo} alt="Logo" className="w-10" />
-              Shopsy
             </a>
           </div>
 
@@ -109,7 +108,7 @@ const Navbar = ({ handleOrderPopup }) => {
           {/* Simple Dropdown and Links */}
           <li className="group relative cursor-pointer">
             <a href="#" className="flex items-center gap-[2px] py-2">
-              Trending Products
+              Latest Products
               <span>
                 <FaCaretDown className="transition-all duration-200 group-hover:rotate-180" />
               </span>
