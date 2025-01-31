@@ -58,7 +58,7 @@ const Products = () => {
             Top Selling Products for you
           </p>
           <h1 data-aos="fade-up" className="text-3xl font-bold">
-            Products
+            Women Top Products
           </h1>
           <p data-aos="fade-up" className="text-xs text-gray-400">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad est illum, nisi et atque laudantium, aliquid amet architecto nam ex inventore dolore nobis quod repellat officiis quasi deleniti quas cumque!
@@ -94,7 +94,7 @@ const Products = () => {
           {/* view all button */}
           <div className="flex justify-center">
             <button className="text-center mt-10 cursor-pointer bg-primary text-white py-1 px-5 rounded-md">
-              View All Button
+              View All Buttons
             </button>
           </div>
         </div>

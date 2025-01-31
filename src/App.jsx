@@ -4,7 +4,7 @@ import Hero from "./components/Hero/Hero";
 import Products from "./components/Products/Products";
 import AOS from "aos";
 import "aos/dist/aos.css";
-// import TopProducts from "./components/TopProducts/TopProducts";
+import TopProducts from "./components/TopProducts/TopProducts";
 import Banner from "./components/Banner/Banner";
 import Subscribe from "./components/Subscribe/Subscribe";
 import Testimonials from "./components/Testimonials/Testimonials";
@@ -22,7 +22,7 @@ const App = () => {
       offset: 100,
       duration: 800,
       easing: "ease-in-sine",
-      delay: 100,
+      delay: 80,
     });
     AOS.refresh();
   }, []);
@@ -32,7 +32,7 @@ const App = () => {
       <Navbar handleOrderPopup={handleOrderPopup} />
       <Hero handleOrderPopup={handleOrderPopup} />
       <Products />
-      {/* <TopProducts handleOrderPopup={handleOrderPopup} /> */}
+      <TopProducts handleOrderPopup={handleOrderPopup} />
       <Banner />
       <Subscribe />
       <Products />

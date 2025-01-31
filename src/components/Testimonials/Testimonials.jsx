@@ -4,26 +4,26 @@ import Slider from "react-slick";
 const TestimonialData = [
   {
     id: 1,
-    name: "Micky",
-    text: "Great service and support!",
+    name: "Micky Dev",
+    text: "Amazing quality and fast delivery! I’m beyond impressed with my order. Will definitely shop again!",
     img: "https://picsum.photos/101/101",
   },
   {
     id: 2,
-    name: "Micky Dev",
-    text: "",
+    name: "Oladele Michael",
+    text: "The best shopping experience I've had online! Customer service was top-notch.",
     img: "https://picsum.photos/102/102",
   },
   {
     id: 3,
-    name: "Michael",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Dev Micky",
+    text: "The quality is top-notch! The fabric feels so luxurious, and the fit is perfect. I got so many compliments!",
     img: "https://picsum.photos/104/104",
   },
   {
     id: 5,
-    name: "Oladele",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Michael",
+    text: "This is my go-to brand for unique and classy outfits. The attention to detail is amazing!" ,
     img: "https://picsum.photos/103/103",
   },
 ];
@@ -73,14 +73,13 @@ const Testimonials = () => {
         {/* header section */}
         <div className="text-center mb-10 max-w-[600px] mx-auto">
           <p data-aos="fade-up" className="text-sm text-primary">
-            What our customers are saying
+         Reviews we have gotten so far...
           </p>
           <h1 data-aos="fade-up" className="text-3xl font-bold">
             Testimonials
           </h1>
           <p data-aos="fade-up" className="text-xs text-gray-400">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-            asperiores modi Sit asperiores modi
+          Our customers love looking good in our outfits! Here's what they have to say:
           </p>
         </div>
 

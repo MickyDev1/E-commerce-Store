@@ -1,5 +1,5 @@
 import React from "react";
-import footerLogo from "../../assets/logo.png";
+import footerLogo from "../../assets/logo.jpeg";
 import Banner from "../../assets/website/footer-pattern.jpg";
 import {
   FaFacebook,
@@ -46,21 +46,18 @@ const Footer = () => {
           <div className="py-8 px-4">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
               <img src={footerLogo} alt="" className="max-w-[50px]" />
-              Shopsy
+              Micky Dev Store
             </h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in
-              beatae ea recusandae blanditiis veritatis.
-            </p>
+            <p>The best and reliable shopping website</p>
           </div>
 
           {/* Footer Links */}
           <div className="grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10">
             <div>
               <div className="py-8 px-4">
-                <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
+                {/* <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
                   Important Links
-                </h1>
+                </h1> */}
                 <ul className="flex flex-col gap-3">
                   {FooterLinks.map((link) => (
                     <li
@@ -73,7 +70,7 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div>
+            {/* <div>
               <div className="py-8 px-4">
                 <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
                   Links
@@ -89,7 +86,7 @@ const Footer = () => {
                   ))}
                 </ul>
               </div>
-            </div>
+            </div> */}
 
             {/* social links */}
 
@@ -108,7 +105,7 @@ const Footer = () => {
               <div className="mt-6">
                 <div className="flex items-center gap-3">
                   <FaLocationArrow />
-                  <p>Lagos Nigeria</p>
+                  <p>Lagos, Nigeria</p>
                 </div>
                 <div className="flex items-center gap-3 mt-3">
                   <FaMobileAlt />
