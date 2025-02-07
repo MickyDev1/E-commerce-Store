@@ -10,21 +10,21 @@ const ImageList = [
     img: Image1,
     title: "Upto 15% off on all Men's Wear",
     description:
-      "lorem His Life will forever be Changed dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Upgrade your wardrobe with the latest men's fashion. Enjoy up to 15% off on stylish shirts, trousers, and accessories. Don't miss out on this exclusive deal",
   },
   {
     id: 2,
     img: Image2,
-    title: "50% off on all Women's Wear",
+    title: "25% off on all Women's Wear",
     description:
-      "Who's there lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Step up your style with trendy women's fashion! Get 25% off on dresses, tops, and accessories. Limited-time offer—shop now!",
   },
   {
     id: 3,
     img: Image3,
-    title: "60% off on all Products Sale",
+    title: "10% off on all Products Sale",
     description:
-      "consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Huge savings on everything! Get 10% off on all items, from clothing to accessories. Shop now and enjoy unbeatable discounts!",
   },
 ];
 
@@ -77,9 +77,9 @@ const Hero = ({ handleOrderPopup }) => {
                   >
                     <button
                       onClick={handleOrderPopup}
-                      className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full"
+                      className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 py-2 px-4 rounded-full"
                     >
-                      Order Now
+                      Order Now!
                     </button>
                   </div>
                 </div>

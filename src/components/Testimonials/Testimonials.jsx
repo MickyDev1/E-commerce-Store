@@ -73,13 +73,13 @@ const Testimonials = () => {
         {/* header section */}
         <div className="text-center mb-10 max-w-[600px] mx-auto">
           <p data-aos="fade-up" className="text-sm text-primary">
-         Reviews we have gotten so far...
+          {/* Our Customers, Our Inspiration – Read Their Stories */}
           </p>
           <h1 data-aos="fade-up" className="text-3xl font-bold">
             Testimonials
           </h1>
           <p data-aos="fade-up" className="text-xs text-gray-400">
-          Our customers love looking good in our outfits! Here's what they have to say:
+          Our Customers, Our Inspiration – Read Their Stories!
           </p>
         </div>
 

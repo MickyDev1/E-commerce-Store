@@ -55,13 +55,13 @@ const Products = () => {
         {/* Header section */}
         <div className="text-center mb-10 max-w-[600px] mx-auto">
           <p data-aos="fade-up" className="text-sm text-primary">
-            Top Selling Products for you
+          Top Picks Just for You!
           </p>
           <h1 data-aos="fade-up" className="text-3xl font-bold">
-            Women Top Products
+          Discover the Best in Women's Fashion
           </h1>
           <p data-aos="fade-up" className="text-xs text-gray-400">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad est illum, nisi et atque laudantium, aliquid amet architecto nam ex inventore dolore nobis quod repellat officiis quasi deleniti quas cumque!
+          Stay stylish and confident with our exclusive collection of women’s top products! From trendy tops to elegant dresses, we bring you the best-selling and most-loved fashion pieces, designed for every occasion.
           </p>
         </div>
         {/* Body section */}

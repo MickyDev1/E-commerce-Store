@@ -47,7 +47,7 @@ const Banner = () => {
               </div>
               <div data-aos="fade-up" className="flex items-center gap-4">
                 <GiFoodTruck className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-yellow-100 dark:bg-yellow-400" />
-                <p>Get Our Offers</p>
+                <p>Get Our Offers!</p>
               </div>
             </div>
           </div>
